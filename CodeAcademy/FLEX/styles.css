@@ -1,0 +1,33 @@
+.shape{
+    width: 100px;
+    height: 100px;
+    background: red;
+    margin: 10px;
+}
+
+div{
+    font-size: 32px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container1{
+    display: flex;
+    justify-content: flex-start;
+}
+.container2{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+}
+
+.container3 .shape{
+    background: blue;
+}
