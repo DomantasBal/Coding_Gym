@@ -1,3 +1,5 @@
+/* Variables */
+
 :root{
     --color-primary: #2583ff;
     --color-secondary: #00d9ff;
@@ -6,13 +8,35 @@
     --color-body: #918ca4;
 }
 
+/* General CSS */
 
-.shape{
-    width: 100px;
-    height: 100px;
-    background: gold;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.shape:hover{
-    width:300px;
+/* Navigation */
+
+nav {
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10px;
+}
+
+nav .logo{
+    width: 64px;
+    height: 64px;
+}
+
+.line{
+    width: 40px;
+    border-bottom: 3px solid white;
+    border-radius: 12px;
+    margin: 10px;
+}
+
+.line--shorter{
+    width: 25px;
 }
