@@ -1,7 +1,15 @@
 let btn = document.querySelector("#btn");
-
+let body = document.querySelector("body");
 // No judge pls just experimenting :))))))))))))
 
-function lightsOut(){
-    document.body.style.background = "black";
-}
+// function lightsOut(){
+//     document.body.style.background = "black";
+// }
+
+btn.addEventListener("click", ()=>{
+    if(body.style.background === "black"){
+        body.style.background = "white";
+    }else{
+        body.style.background = "black";
+    }
+});
