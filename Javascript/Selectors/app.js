@@ -1,5 +1,6 @@
 let btn = document.querySelector("#btn");
 let body = document.querySelector("body");
+
 // No judge pls just experimenting :))))))))))))
 
 // function lightsOut(){
