@@ -12,19 +12,40 @@
 // }
 
 
-let person = {
-    name: "Domantas",
-    age: 17,
-    country: "Panama"
+// let person = {
+//     name: "Domantas",
+//     age: 17,
+//     country: "Panama"
+// }
+
+// for (let key in person){
+//     console.log(`${key} : ${person[key]}`);
+// }
+
+// let array = ["1", "2", "3"]
+
+// for (let value of array){
+//     console.log(value);
+// }
+
+
+
+function showNumbers(input){
+    
+    
+    for(i=0; i < input; i++){
+        const message = input %2 == 0 ? "Even" : "ODD"
+        console.log(message);
+    }
 }
+showNumbers(11);
 
-for (let key in person){
-    console.log(`${key} : ${person[key]}`);
-}
-
-let array = ["1", "2", "3"]
-
-for (let value of array){
-    console.log(value);
-}
-
+// function showNumbers(input){
+//     for(i=0; i <= input; i++){
+//       const message = i % 2 == 0 ? "Even" : "Odd";
+//       console.log(i, message);
+//     }
+//   }
+  
+//   showNumbers(11);
+  
