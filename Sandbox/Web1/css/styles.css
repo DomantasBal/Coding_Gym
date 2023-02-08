@@ -66,3 +66,64 @@ nav .logo{
     align-items: center;
 
 }
+
+body{
+    height: 7000px;
+}
+
+.content{
+    display: flex;
+    font-size: 2.6rem;
+    gap: 10px;
+    justify-content: space-around;
+    padding: 50px;
+    margin-top: 40px;
+}
+
+.content img {
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+}
+
+
+h2 {
+    font-size: 24px;
+    margin: 15px 0px;
+}
+.text{
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    padding: 30px;
+    border: solid 1px black;
+
+    align-self: center;
+}
+
+
+.hidden{
+    visibility: hidden;
+}
+
+
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 60px;
+}
+
+.margin-top{
+    margin: 500px 0px;
+}
+
+.margin-bot{
+    margin: 500px 0px 0px 0px;
+}
+
+
+.end{
+background: #303030;
+    height: 100vh;
+}
+
