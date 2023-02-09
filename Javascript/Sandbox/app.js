@@ -4,11 +4,13 @@
 
 let numbers = [1,2,3,4,5,6,7,8,9];
 
-let doubled = numbers.map((value) => value *2 )
+// let plusSomething = numbers.map((value) => value *8)
+// console.log(plusSomething);
 
-console.log(doubled)
+// console.log(numbers.includes(48));
 
-
+let even = numbers.filter((number) => number == 9);
+console.log(even);
 
 // let pizza = ["piece1","piece2","piece3","piece4","piece5","piece6"]
 // let plate = pizza.slice(0,3)
