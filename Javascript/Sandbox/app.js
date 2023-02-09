@@ -1,3 +1,21 @@
+
+
+
+let li = document.querySelector("li");
+
+// makeGold("Nope");
+
+// function makeGold (isON){
+//    isON === "ON" ? li.style.background = "gold" : console.log("Nope")
+// }
+
+const makeGoldey = isON =>  isON ?  li.style.background = "gold" : console.log("Nope");
+
+makeGoldey (1);
+
+
+
+
 ////////////////////////
 // Lyginis Nelyginis //
 //////////////////////
@@ -30,15 +48,17 @@
 
 
 
-function showNumbers(input){
+// function showNumbers(input){
     
     
-    for(i=0; i < input; i++){
-        const message = input %2 == 0 ? "Even" : "ODD"
-        console.log(message);
-    }
-}
-showNumbers(11);
+//     for(i=0; i < input; i++){
+//         const message = input %2 == 0 ? "Even" : "ODD"
+//         console.log(message);
+//     }
+// }
+// showNumbers(11);
+
+
 
 // function showNumbers(input){
 //     for(i=0; i <= input; i++){
