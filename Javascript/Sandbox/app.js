@@ -2,15 +2,45 @@
 // MAP FILTER SLICE SPLICE  //
 /////////////////////////////
 
-let numbers = [1,2,3,4,5,6,7,8,9];
 
-// let plusSomething = numbers.map((value) => value *8)
-// console.log(plusSomething);
+// let numbers = [1,2,3,4];
+
+// let result = numbers.map((value, indeksiuks) => value *indeksiuks)
+// console.log(result);
+
 
 // console.log(numbers.includes(48));
 
-let even = numbers.filter((number) => number == 9);
-console.log(even);
+
+// const products = [
+//     {
+//         name: "laptop",
+//         price: 1000,
+//         count: 5
+//     },
+//     {
+//         name: "mixer",
+//         price: 3000,
+//         count: 2
+//     },
+//     {
+//         name: "phone",
+//         price: 500,
+//         count: 10
+//     }
+// ];
+
+
+// const total = products.map(item => item.price * item.count);
+// console.log(total);
+
+
+// const old = people.filter(age => age.age > 40);
+// console.log( old);
+
+
+// let even = numbers.filter((number) => number %2 !== 0);
+// console.log(even);
 
 // let pizza = ["piece1","piece2","piece3","piece4","piece5","piece6"]
 // let plate = pizza.slice(0,3)
