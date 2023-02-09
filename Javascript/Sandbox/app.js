@@ -1,17 +1,30 @@
 
+let numbers = ["one","two","three"]
 
+let result = numbers.unshift("NEW")
+// let result = numbers.shift("NEW")
+// let result = numbers.push("NEW")
+// let result = numbers.pop()
+console.log(result);
+console.log(numbers);
+
+
+
+///////////////////////////////
+// Arrow fucntions hoisting //
+/////////////////////////////
 
 // Hoisting not working example and test
-let something = () => console.log("something");
+// let something = () => console.log("something");
 
-something();
+// something();
 
 
     
-let li = document.querySelector("li");
-const makeGoldey = isON =>  isON ?  li.style.background = "gold" : console.log("Nope");
+// let li = document.querySelector("li");
+// const makeGoldey = isON =>  isON ?  li.style.background = "gold" : console.log("Nope");
 
-makeGoldey (1);
+// makeGoldey (1);
 
 
 
