@@ -1,15 +1,19 @@
-let pizza = ["piece1","piece2","piece3","piece4","piece5","piece6"]
+///////////////////////////////
+// MAP FILTER SLICE SPLICE  //
+/////////////////////////////
 
-console.log("array bellow:")
+let numbers = [1,2,3,4,5,6,7,8,9];
 
-let plate = pizza.slice(0,3)
-// let plate = pizza.splice(0,3)
+let doubled = numbers.map((value) => value *2 )
 
-console.log(plate);
+console.log(doubled)
 
-console.log("pizza bellow:")
-console.log(pizza);
 
+
+// let pizza = ["piece1","piece2","piece3","piece4","piece5","piece6"]
+// let plate = pizza.slice(0,3)
+// console.log(plate);
+// console.log(pizza);
 
 
 
