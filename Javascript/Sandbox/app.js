@@ -1,18 +1,24 @@
+let pizza = ["piece1","piece2","piece3","piece4","piece5","piece6"]
 
-let numbers = ["one","two", something];
+console.log("array bellow:")
 
-function something(){
-    console.log("Boogie woogie")
-}
+// let plate = pizza.slice(0,3)
+let plate = pizza.splice(0,3)
 
-numbers[2]();
+console.log(plate);
+
+console.log("pizza bellow:")
+console.log(pizza);
+
+
+
 
 // let result = numbers.unshift("NEW")
 // let result = numbers.shift("NEW")
 // let result = numbers.push("NEW")
 // let result = numbers.pop()
 // console.log(result);
-console.log(numbers);
+
 
 
 
