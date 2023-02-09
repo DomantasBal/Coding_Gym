@@ -2,8 +2,8 @@ let pizza = ["piece1","piece2","piece3","piece4","piece5","piece6"]
 
 console.log("array bellow:")
 
-// let plate = pizza.slice(0,3)
-let plate = pizza.splice(0,3)
+let plate = pizza.slice(0,3)
+// let plate = pizza.splice(0,3)
 
 console.log(plate);
 
