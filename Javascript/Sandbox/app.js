@@ -1,11 +1,17 @@
 
-let numbers = ["one","two","three"]
+let numbers = ["one","two", something];
 
-let result = numbers.unshift("NEW")
+function something(){
+    console.log("Boogie woogie")
+}
+
+numbers[2]();
+
+// let result = numbers.unshift("NEW")
 // let result = numbers.shift("NEW")
 // let result = numbers.push("NEW")
 // let result = numbers.pop()
-console.log(result);
+// console.log(result);
 console.log(numbers);
 
 
