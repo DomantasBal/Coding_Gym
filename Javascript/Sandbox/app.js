@@ -1,17 +1,19 @@
 
 
 
+// Hoisting not working example and test
+let something = () => console.log("something");
+
+something();
+
+
+    
 let li = document.querySelector("li");
-
-// makeGold("Nope");
-
-// function makeGold (isON){
-//    isON === "ON" ? li.style.background = "gold" : console.log("Nope")
-// }
-
 const makeGoldey = isON =>  isON ?  li.style.background = "gold" : console.log("Nope");
 
 makeGoldey (1);
+
+
 
 
 
