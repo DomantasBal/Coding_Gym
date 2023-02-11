@@ -1,15 +1,3 @@
-///////////////////////////////
-// MAP FILTER SLICE SPLICE  //
-/////////////////////////////
-
-
-// let numbers = [1,2,3,4];
-
-// let result = numbers.map((value, indeksiuks) => value *indeksiuks)
-// console.log(result);
-
-
-// console.log(numbers.includes(48));
 
 
 // const products = [
