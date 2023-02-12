@@ -1,0 +1,45 @@
+:root{
+    --color-primary: ;
+    --color-secondary: ;
+    --color-accent: ;
+    --color-paragraph: #303030;
+}
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    color: var(--color-paragraph);
+}
+
+/* h1, h2, h3, h4, h5, h6 {
+
+} */
+
+
+a{
+    text-decoration: none;
+}
+
+
+
+/* NAVIGATION */
+
+.nav{
+    background: #818181;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav__item{
+    margin: 15px;
+}
+
+.nav__item a {
+    color: white;
+}
