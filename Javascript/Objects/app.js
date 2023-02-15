@@ -1,18 +1,41 @@
+// let address = {
+//     street: "a",
+//     city: "b",
+//     zipCode: "c"
+// };
+
+//Factory function
+
+let address = createAddress("a","b","c")
+console.log(address);
+function createAddress(street, city, zipCode) {
+    return {
+        street,
+        city,
+        zipCode
+    };
+}
+
+//Constructor function
+
+function constructor(street, city, zipCode) {
+  (this.street = street), (this.city = city), (this.zipcode = zipCode);
+}
+
+let house = new constructor("conA","conB","conC");
+console.log(house);
+
 /////////////////////////////////////
 // String - Primitive - Object     //
 ////////////////////////////////////
 
-// String primitive
-const message = "hey";
-console.log(message[0]);
+// // String primitive
+// const message = "hey";
+// console.log(message[0]);
 
-// String object
-const another = new String ("yo");
-console.log(another);
-
-
-
-
+// // String object
+// const another = new String ("yo");
+// console.log(another);
 
 ///////////////////////////////
 // Value vs Reference       //
