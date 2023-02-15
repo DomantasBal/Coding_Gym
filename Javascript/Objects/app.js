@@ -1,16 +1,32 @@
+/////////////////////////////////////
+// String - Primitive - Object     //
+////////////////////////////////////
+
+// String primitive
+const message = "hey";
+console.log(message[0]);
+
+// String object
+const another = new String ("yo");
+console.log(another);
+
+
+
+
+
 ///////////////////////////////
 // Value vs Reference       //
 /////////////////////////////
 
-let obj = {value: 10};
-function increase(obj) {
-    obj.value++;
-  console.log(obj.value);
-}
+// let obj = {value: 10};
+// function increase(obj) {
+//     obj.value++;
+//   console.log(obj.value);
+// }
 
-increase(obj);
+// increase(obj);
 
-console.log(obj);
+// console.log(obj);
 
 //////////////////////////////////
 
