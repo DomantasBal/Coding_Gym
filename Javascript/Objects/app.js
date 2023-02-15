@@ -1,21 +1,61 @@
 ///////////////////////////////
-// Factory functions        //
+// Value vs Reference       //
 /////////////////////////////
 
-
-function circle (radius) {
-    return {
-        radius,
-        draw (){
-            console.log("circleee");
-        }
-        };
+let obj = {value: 10};
+function increase(obj) {
+    obj.value++;
+  console.log(obj.value);
 }
-  
-  const circle1 = circle(123);
-  circle1.draw();
-  console.log(circle1);
-  
+
+increase(obj);
+
+console.log(obj);
+
+//////////////////////////////////
+
+// let number = 10;
+// function increase(number) {
+//   number++;
+//   console.log(number);
+// }
+
+// increase(number);
+
+// console.log(number);
+
+///////////////////////////////
+// Constructor functions    //
+/////////////////////////////
+//PASCAL NOTATION
+
+// function Circle (radius){
+//     this.radius = radius;
+//     this.draw = ()=>{
+//         console.log("draw")
+//     }
+// }
+// const shape = new Circle();
+
+// console.log(Circle);
+
+///////////////////////////////
+// Factory functions        //
+/////////////////////////////
+//CAMEL NOTATION
+
+// function circle (radius) {
+//     return {
+//         radius,
+//         draw (){
+//             console.log("circleee");
+//         }
+//         };
+// }
+
+//   const circle1 = circle(123);
+//   circle1.draw();
+//   console.log(circle1);
 
 ///////////////////////////////
 // Objects   - Method       //
