@@ -18,11 +18,11 @@ function createAddress(street, city, zipCode) {
 
 //Constructor function
 
-function constructor(street, city, zipCode) {
+function Constructor(street, city, zipCode) {
   (this.street = street), (this.city = city), (this.zipcode = zipCode);
 }
 
-let house = new constructor("conA","conB","conC");
+let house = new Constructor("conA","conB","conC");
 console.log(house);
 
 /////////////////////////////////////
