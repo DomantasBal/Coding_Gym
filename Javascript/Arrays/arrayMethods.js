@@ -51,11 +51,12 @@ let words = ["Hello", "I", "am", "an", "array"];
 
 
 // //MAP
+// **** return new array  ****  //
 // let result = numbers.map((value, index) => value *index)
 // console.log(result);
 
 // // Filter
-// **** () ****  //
+// **** return new array  ****  //
 // const even = numbers.filter((number)=> number %2 ==0);
 // console.log(even);
 
