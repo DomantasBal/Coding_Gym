@@ -1,14 +1,13 @@
-const circle = {
-    radius: 1,
-    location: {
-        x:1,
-        y:1
-    },
-    invisible: true,
+let obj = {
+    name: "domantas",
+    last: "balciunas",
+    age: 13,
+    games: "COD, STEAM, Origin"
+}
 
-    draw: function (){
-        console.log("circle");
-    }
-    };
+let clone = {...obj};
 
-    circle.draw();
+
+console.log(obj);
+
+console.log(clone);
