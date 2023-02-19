@@ -1,0 +1,22 @@
+#gallery{
+    background: url("./3.jpg");
+    object-fit: contain;
+    background-position: center center;
+    background-size: cover;
+    width: 800px;
+    height: 800px;
+    border: 1px solid black;
+}
+
+button {
+    margin: 30px 0px;
+    width: 240px;
+    height: 40px;
+}
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
