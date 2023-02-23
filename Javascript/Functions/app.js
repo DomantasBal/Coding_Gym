@@ -1,3 +1,7 @@
+/////////////////////////////////////
+//            Functions           //
+////////////////////////////////////
+
 // // Function Declaration 
 // function speak (){
 //     console.log("hello");
@@ -21,9 +25,22 @@
 
 
 
+/////////////////////////////////////
+//         Factory function        //
+////////////////////////////////////
 
 
-
+function createPerson(name) {
+    this.name = name;
+  }
+  
+  createPerson.prototype.talk = function() {
+    console.log(this.name);
+  };
+  
+  const me = new createPerson("Dom");
+  me.talk(); // logs "Dom"
+  
 
 
 
