@@ -1,0 +1,18 @@
+
+/* CLASS NAME YOU DONT WANNNA SEE :) */
+.fromScratchBtnCompare{
+    width: 78px;
+    height: 35px;
+    background: #0C6DFC;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fromScratchBtnCompare:hover{
+    background: #0d51b6;
+    cursor:pointer;
+}
