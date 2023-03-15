@@ -1,7 +1,9 @@
 try {
-  console.log(a + b);
+  // console.log(a + b);
+  throw new TypeError();
 } catch (err) {
+  console.log(err);
   console.log("Error example");
 }
 
-throw new TypeError();
+console.log("code still runing here");
