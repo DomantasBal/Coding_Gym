@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+label,input{
+    display: block;
+    margin: 8px;
+}
+
+/* VALIDATION STYLING */
+
+input:invalid{
+    border-color: red;
+}
+
+input:valid{
+    border-color: green;
+}
