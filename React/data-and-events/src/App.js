@@ -8,6 +8,7 @@ function App() {
   function handeClick() {
     setWord("Drink");
   }
+
   return (
     <div className="App">
       <Heading message={word + "Something"} />
