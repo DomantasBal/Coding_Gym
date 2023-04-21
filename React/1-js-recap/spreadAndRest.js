@@ -26,7 +26,8 @@ console.log(Renata);
 // USE IN FUNCTIONS
 
 const filter = (...args) => {
-  return args.filter((el) => el === 1);
+  return args.filter((el) => el === 'Banana');
 };
 
-console.log(filter(1, 2, 3));
+let dinnerTable = filter('jungle tree', 'rock', 'monkey', 'Banana');
+console.log(dinnerTable);
