@@ -1,0 +1,21 @@
+
+################# 04 #############
+TypeScript - JavaScript Superset. Adds new features to the javascript.
+
+• Browsers can't execute typescript
+• Node JS can't execute typescript 
+
+Typescript is a compiler that compiles to javascript.
+
+• Accessing input.value always takes values as a "String"
+
+const input1 = document.getElementById("num1")!;
+! - means that selection can not be null 
+
+###Check:### 
+** Typecasting
+** as HTMLInputElement
+** num1: datatypes
+** tsc - ?
+** +input.value - Plus sign "+" converts to a number
+
