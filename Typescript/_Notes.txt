@@ -12,10 +12,20 @@ Typescript is a compiler that compiles to javascript.
 const input1 = document.getElementById("num1")!;
 ! - means that selection can not be null 
 
-###Check:### 
+### Check: ### 
 ** Typecasting
 ** as HTMLInputElement
 ** num1: datatypes
 ** tsc - ?
 ** +input.value - Plus sign "+" converts to a number
 
+• Always import js files because browser can't run typescript
+
+
+################# 05 #############
+
+### Check: ###
+** Decorators
+** Typescript configuration 
+
+################# 06 #############
