@@ -28,4 +28,14 @@ const input1 = document.getElementById("num1")!;
 ** Decorators
 ** Typescript configuration 
 
-################# 06 #############
+################# 11 #############
+
+Core data types:
+
+• Number (no floats or int types just number)
+• String
+• Boolean (No truthy or falsy)
+
+• Typescript only helps during compilation it does not change js runtime code
+
+################# 12 #############
