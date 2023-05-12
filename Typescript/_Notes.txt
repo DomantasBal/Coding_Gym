@@ -4,6 +4,7 @@ TypeScript - JavaScript Superset. Adds new features to the javascript.
 
 • Browsers can't execute typescript
 • Node JS can't execute typescript 
+• Staticly types language
 
 Typescript is a compiler that compiles to javascript.
 
@@ -31,7 +32,6 @@ const input1 = document.getElementById("num1")!;
 ################# 11 #############
 
 Core data types:
-
 • Number (no floats or int types just number)
 • String
 • Boolean (No truthy or falsy)
@@ -39,3 +39,6 @@ Core data types:
 • Typescript only helps during compilation it does not change js runtime code
 
 ################# 12 #############
+
+• Javascript uses "dynamic types" resolved at runtime
+• Typescript uses "static types" set during development
