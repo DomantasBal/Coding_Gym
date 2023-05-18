@@ -34,13 +34,13 @@ app.put("/api/courses/:id", (req, res) => {
   // Look up the course
   // if not existing return 404
   const course = courses.find((c) => c.id === parseInt(req.params.id));
-  if (!course) res.status(404).send("the course id is invalid");
+  if (!course) {
+    return res.status(404).send("invalid course");
+  }
 
   const { error } = validateCourse(req.body); // result.error
   if (error) {
-    // 400 bad request
-    res.status(400).send(result.error.details[0].message);
-    return;
+    return res.status(400).send(result.error.details[0].message);
   }
 
   //update course
@@ -59,9 +59,21 @@ function validateCourse(course) {
 
 app.get("/api/courses/:id", (req, res) => {
   const course = courses.find((c) => c.id === parseInt(req.params.id));
-  if (!course) res.status(404).send("the course with id not found");
-  res.send(course);
+  if (!course) {
+    res.status(404).send("the course with id not found");
+    res.send(course);
+  }
 });
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => console.log(`listening on port ${port}`));
+
+app.delete("/api/courses/:id", (req, res) => {
+  const course = courses.find((c) => c.id === parseInt(req.params.id));
+  if (!course) res.status(404).send("the course id invalid");
+
+  const index = courses.indexOf(course);
+  courses.splice(index, 1);
+
+  res.send(course);
+});
