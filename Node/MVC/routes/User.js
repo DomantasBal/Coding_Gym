@@ -1,8 +1,12 @@
 const express = require("express");
 const router = express.Router();
 
-router.get("/", (req, res) => {
-  res.send("something something dark side");
-});
+const controller = require("../controllers/user.controller");
+
+// router.get("/", (req, res) => {
+//   res.send("something something dark side");
+// });
+
+router.get("/", controller.get);
 
 module.exports = router;
